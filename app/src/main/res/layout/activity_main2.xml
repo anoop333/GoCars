@@ -212,7 +212,7 @@
         android:layout_height="59dp"
         android:layout_marginTop="3dp"
         android:layout_marginBottom="24dp"
-        android:text="Car \n Wash"
+        android:text="Car \nWash"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.152"
