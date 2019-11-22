@@ -198,10 +198,10 @@
         android:layout_marginTop="5dp"
         android:layout_marginEnd="76dp"
         android:layout_marginBottom="4dp"
-        android:text="Interior \n Detailing"
+        android:text="Interior \nDetailing"
         app:layout_constraintBottom_toTopOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
         app:layout_constraintVertical_bias="0.0" />
@@ -255,8 +255,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Body \nWaxing"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="385dp" />
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="393dp" />
 
     <TextView
         android:id="@+id/textView17"
