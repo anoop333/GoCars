@@ -58,17 +58,11 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="72dp"
-        android:layout_height="98dp"
-        android:layout_marginStart="244dp"
-        android:layout_marginTop="67dp"
-        android:layout_marginBottom="292dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView2"
-        app:srcCompat="@drawable/interior" />
+        android:layout_width="61dp"
+        android:layout_height="77dp"
+        app:srcCompat="@drawable/interior"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="212dp" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -111,6 +105,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.947"
         app:srcCompat="@drawable/oil" />
 
     <ImageView
@@ -136,10 +131,10 @@
         android:layout_marginBottom="52dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView8"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.285"
         app:srcCompat="@drawable/ac" />
 
     <ImageView
@@ -191,14 +186,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="64dp"
-        android:layout_marginBottom="4dp"
         android:text="Interior \n Detailing"
         app:layout_constraintBottom_toTopOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.951" />
 
     <TextView
         android:id="@+id/textView10"
@@ -215,14 +211,17 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="48dp"
-        android:layout_height="34dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="548dp"
+        android:layout_width="33dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="24dp"
         android:text="Car \nA/c"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView12"
         app:layout_constraintStart_toEndOf="@+id/textView10"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
@@ -237,7 +236,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView11"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView13"
@@ -279,6 +279,7 @@
         app:layout_constraintEnd_toStartOf="@+id/imageView10"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
