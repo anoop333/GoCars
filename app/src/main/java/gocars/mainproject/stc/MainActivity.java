@@ -29,7 +29,7 @@ TextView name;
             public void run() {
                 // This method will be executed once the timer is over
                 // Start your app main activity
-                Intent i = new Intent(MainActivity.this, Main2Activity.class);
+                Intent i = new Intent(MainActivity.this, login.class);
                 startActivity(i);
 
                 // close this activity
