@@ -26,56 +26,15 @@
         android:layout_width="1103dp"
         android:layout_height="178dp"
         android:layout_marginStart="172dp"
-        android:layout_marginTop="12dp"
         android:layout_marginEnd="1096dp"
+        android:layout_marginBottom="1628dp"
         android:text="Salient Features :"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="725dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="104dp"
-        android:text="Full system check"
-        android:textColor="@android:color/black"
-        android:textSize="14sp"
-        app:layout_constraintTop_toBottomOf="@+id/textView14"
-        tools:layout_editor_absoluteX="473dp" />
-
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="1013dp"
-        android:layout_height="158dp"
-        android:text="Engine Maintenance"
-        android:textColor="@android:color/black"
-        android:textSize="14sp"
-        tools:layout_editor_absoluteX="461dp"
-        tools:layout_editor_absoluteY="2251dp" />
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="1332dp"
-        android:layout_height="168dp"
-        android:text="Engine oil and oil filter change"
-        android:textColor="@android:color/black"
-        android:textSize="14sp"
-        tools:layout_editor_absoluteX="448dp"
-        tools:layout_editor_absoluteY="2438dp" />
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="1252dp"
-        android:layout_height="179dp"
-        android:text="Suspension overhaul"
-        android:textColor="@android:color/black"
-        android:textSize="14sp"
-        tools:layout_editor_absoluteX="448dp"
-        tools:layout_editor_absoluteY="2656dp" />
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView23"
@@ -109,5 +68,142 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="411dp"
+        android:layout_marginBottom="738dp"
+        android:text="Car Polish"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="232dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="302dp"
+        android:text="Salient Features"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="384dp"
+        android:layout_marginBottom="244dp"
+        android:text="Foam Wash Polish"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="147dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="396dp"
+        android:layout_marginBottom="176dp"
+        android:text="In-Depth Cleaning"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="108dp"
+        android:text="Swirl Marks  Minor Scratch Removal"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="383dp"
+        android:layout_marginBottom="51dp"
+        android:text="Interior Rejuvenation"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="243dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginEnd="323dp"
+        android:layout_marginBottom="75dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="BOOK NOW"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="546dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="163dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/car" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
