@@ -14,11 +14,13 @@ TextView f;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         f=findViewById(R.id.textView6);
-        f.setOnClickListener(new View.OnClickListener() {
+
+                f.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent j=new Intent(login.this,signup.class);
                 startActivity(j);
+
             }
         });
     }
